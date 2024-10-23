@@ -1,0 +1,5 @@
+Camisa de Hombre,25000,50
+Pantalon de Hombre,30000,30
+Chaqueta de Hombre,55000,20
+Falda de Mujer,28000,15
+Blusa de Mujer,22000,40

@@ -1,0 +1,5 @@
+Camisa de Hombre,25000.0,1
+Pantalon de Hombre,30000.0,1
+Chaqueta de Hombre,55000.0,1
+Falda de Mujer,28000.0,1
+Blusa de Mujer,22000.0,1
