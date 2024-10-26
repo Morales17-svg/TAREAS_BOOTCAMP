@@ -1,5 +1,5 @@
-Prenda: Camisa de Hombre, Precio: 25000, Cantidad comprada: 1, Talla de la prenda: M
-Prenda: Pantalon de Hombre, Precio: 30000, Cantidad comprada: 1, Talla de la prenda: L
-Prenda: Falda de Mujer, Precio: 28000, Cantidad comprada: 1, Talla de la prenda: S
-Prenda: Blusa de Mujer, Precio: 22000, Cantidad comprada: 1, Talla de la prenda: M
-Prenda: Vestido de Mujer, Precio: 45000, Cantidad comprada: 1, Talla de la prenda: L
+Prenda: Camisa, Precio: 25000, Cantidad comprada: 1, Talla de la prenda: M
+Prenda: Pantalon, Precio: 30000, Cantidad comprada: 1, Talla de la prenda: L
+Prenda: Falda, Precio: 28000, Cantidad comprada: 1, Talla de la prenda: S
+Prenda: Blusa, Precio: 22000, Cantidad comprada: 1, Talla de la prenda: M
+Prenda: Vestido, Precio: 45000, Cantidad comprada: 1, Talla de la prenda: L

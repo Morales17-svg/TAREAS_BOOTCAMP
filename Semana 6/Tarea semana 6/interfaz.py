@@ -1,18 +1,16 @@
-from tienda import Carrito, cargar_inventario
+from tienda import Carrito, cargar_inventario  # Importación adaptada
 
 def main():
     carrito = Carrito()
-
-    # Cargar el inventario predefinido
     inventario = cargar_inventario()
 
     while True:
         print("\nInventario de Productos:")
         for index, prenda in enumerate(inventario):
             print(f"{index}. ", end="")
+            # Aplicación de polimorfismo en mostrar_info() para cada prenda
             prenda.mostrar_info()
         
-        # Preguntar al usuario qué prenda desea agregar
         seleccion = input("Ingresa el número del producto que deseas agregar al carrito (o 'salir' para finalizar): ")
         if seleccion.lower() == 'salir':
             break
@@ -27,10 +25,7 @@ def main():
         else:
             print("Por favor, ingresa un número válido.")
     
-    # Mostrar resumen final
     carrito.mostrar_resumen()
-
-    # Guardar el carrito en el archivo
     carrito.guardar_carrito("carrito_de_compras.txt")
 
 if __name__ == "__main__":
