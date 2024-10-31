@@ -1,6 +1,7 @@
-from operaciones import agregar_producto, ver_productos, actualizar_producto, eliminar_producto, guardar_datos
+from operaciones import agregar_producto, ver_productos, actualizar_producto, eliminar_producto, guardar_datos, cargar_datos
 
 def main():
+    cargar_datos()  # Cargar datos desde el archivo al iniciar el programa
     while True:
         print("\n1: Agregar producto")
         print("2: Ver productos")

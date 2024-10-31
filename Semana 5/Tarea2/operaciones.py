@@ -1,4 +1,25 @@
+import os
+
 productos = []  # Lista global para almacenar los productos
+
+def cargar_datos():
+    """Carga los productos desde el archivo productos.txt si existe."""
+    if os.path.exists("productos.txt"):
+        with open("productos.txt", "r") as f:
+            for linea in f:
+                datos = linea.strip().split(', ')
+                if len(datos) == 3:
+                    try:
+                        # Extraer nombre, precio y cantidad con etiquetas
+                        nombre = datos[0].split(": ")[1]
+                        precio = float(datos[1].split(": ")[1])
+                        cantidad = int(datos[2].split(": ")[1])
+                        productos.append({"nombre": nombre, "precio": precio, "cantidad": cantidad})
+                    except (ValueError, IndexError):
+                        print(f"Error en el formato de la línea: {linea}")
+        print("Datos cargados correctamente desde productos.txt.")
+    else:
+        print("No se encontraron datos previos.")
 
 def agregar_producto():
     nombre = input("Introduce el nombre del producto: ").strip().lower()
@@ -98,5 +119,5 @@ def eliminar_producto():
 def guardar_datos():
     with open("productos.txt", "w") as f:
         for producto in productos:
-            f.write(f"{producto['nombre']},{producto['precio']},{producto['cantidad']}\n")
+            f.write(f"Nombre: {producto['nombre']}, Precio: {producto['precio']}, Cantidad: {producto['cantidad']}\n")
     print("Datos guardados correctamente.")

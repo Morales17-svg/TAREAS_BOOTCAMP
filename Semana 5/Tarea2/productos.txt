@@ -1,0 +1,7 @@
+Nombre: manzana, Precio: 5000.0, Cantidad: 30
+Nombre: pan, Precio: 2000.0, Cantidad: 15
+Nombre: leche, Precio: 1000.0, Cantidad: 10
+Nombre: jugo, Precio: 3000.0, Cantidad: 20
+Nombre: galletas, Precio: 3500.0, Cantidad: 25
+Nombre: agua, Precio: 5000.0, Cantidad: 15
+Nombre: coca cola, Precio: 5.0, Cantidad: 5
